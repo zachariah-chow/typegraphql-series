@@ -13,5 +13,8 @@
   },
   "scripts": {
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5"
   }
 }
