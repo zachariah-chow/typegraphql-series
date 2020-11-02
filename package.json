@@ -12,7 +12,7 @@
     "prettier": "^2.1.2"
   },
   "scripts": {
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '**/**/*.{js,ts,tsx}' --quiet --fix"
   },
   "dependencies": {
     "typescript": "^4.0.5"
