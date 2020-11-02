@@ -18,7 +18,8 @@
     "ts-node": "^9.0.0"
   },
   "scripts": {
-    "lint": "eslint '**/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '**/**/*.{js,ts,tsx}' --quiet --fix",
+    "start": "ts-node src/index.js"
   },
   "dependencies": {
     "apollo-server-express": "^2.19.0",
