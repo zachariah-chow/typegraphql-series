@@ -4,10 +4,11 @@ import bcrypt from 'bcryptjs';
 import { User } from '../../entity/User';
 import { RegisterInput } from './register/RegisterInput';
 import { isAuth } from '../middleware/isAuth';
+import { logger } from '../middleware/logger';
 
 @Resolver()
 export class RegisterResolver {
-    @UseMiddleware(isAuth)
+    @UseMiddleware(isAuth, logger)
     @Query(() => String)
     testQuery(): string {
         return 'Test Query';
